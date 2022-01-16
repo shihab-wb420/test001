@@ -1,0 +1,28 @@
+
+.addPostForm{
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  margin: 1em auto;
+}
+
+.addPostForm input{
+  margin-top: 1em;
+ 
+}
+
+.addPostForm button{
+  margin-top:1.4em;
+}
+
+.description{
+  margin-top: 1em;
+  height:20em ;
+  line-height: 1.6em;
+  background: var(--bg-light);
+  border: none;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.9);
+  color: var(--dark-color);
+  padding: 1em;
+  border-radius: 7px;
+}

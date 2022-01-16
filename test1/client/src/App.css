@@ -1,0 +1,25 @@
+
+body{
+  background: var(--bg-light);
+  color: var(--dark-color);
+}
+
+.App {
+  text-align: center;
+}
+
+img{
+  object-fit: cover;
+}
+
+a{
+  color: #67B28A;
+}
+
+:root{
+  --bg-light: #fff;
+  --dark-color:#1C1C24 ;
+  
+  --bg-dark:#323747 ;
+--light-color: #C4C3D1;
+}

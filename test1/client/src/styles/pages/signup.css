@@ -1,0 +1,39 @@
+
+.signupForm{
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  margin: 1em auto;
+}
+
+.signupForm input{
+  margin-top: 0.5em;
+  
+}
+
+.signupForm label{
+  padding: 1em 0em;
+}
+
+.signupForm button{
+  margin: 1.9em auto !important;
+  
+}
+
+#userData{
+  text-align: left;
+  background: ;
+  width: 60vw;
+  margin: 2em auto;
+  padding: 1em;
+  
+}
+
+#userData span{
+  color: green;
+}
+
+.invalidInput{
+  color: red;
+  font-size: 1em;
+}

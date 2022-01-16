@@ -1,0 +1,61 @@
+
+.commentWrapper{
+  width: 95vw;
+  height:auto ;
+  margin: 0.2em auto;
+  padding: 1em 0em;
+  display: flex;
+  flex-direction: column;
+  background:;
+}
+
+.commentInputWrapper{
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: 0px auto;
+}
+
+.commentInputWrapper textarea{
+  height: 12em;
+  padding: 1em ;
+  margin-bottom: 1em;
+ background: var(--bg-light);
+ border: none;
+ color:var(--dark-color);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.6);
+  border-radius: 7px;
+}
+
+.commentInputWrapper button{
+  margin: 2em 0em !important;
+}
+.commentInputWrapper button:hover{
+  color:#3B823D ;
+}
+
+/*-----++Showing Commment Wrapper------*/
+.ShowCommentWrapper{
+  width: 90vw;
+  padding: 2em 0em;
+  text-align: left;
+  padding: 1em;
+  margin: 7px auto;
+}
+
+.showComment{
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.6);
+  padding: 1em;
+  border-radius: 14px;
+  margin-bottom: 2.6em;
+  background: ;
+}
+
+.showComment .commentUserName{
+  color:var(--dark-color);
+  padding-bottom: 9px;
+}
+.showComment .commentContent{
+  margin-left: 0.9em;
+  color: green;
+}
